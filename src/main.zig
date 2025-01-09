@@ -10,7 +10,7 @@ pub fn main() !void {
     const timer = std.time.Timer;
     var t = try timer.start();
 
-    const n: i64 = 50;
+    const n: i64 = 10;
     const result = fib(n);
 
     const elapsed = t.read();
