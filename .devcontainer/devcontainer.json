@@ -1,14 +1,14 @@
 {
-	"name": "Zig Development",
+    "name": "Zig Development",
     "build": {
         "dockerfile": "Dockerfile"
     },
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ziglang.vscode-zig",
-				"fill-labs.dependi"
-			]
-		}
-	}
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ziglang.vscode-zig",
+                "fill-labs.dependi"
+            ]
+        }
+    }
 }
