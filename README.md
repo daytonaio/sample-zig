@@ -1,12 +1,6 @@
-This repository contains a README file sample for Daytona Samples and the MIT License.
+# Sample Zig
 
-It can be used as a template to create sample repositories that can be added into [Daytona](https://github.com/daytonaio/daytona).
-
-Once you finish your sample and it gets merged, you can open a PR in the Daytona repo and submit the sample into the [index file](https://github.com/daytonaio/daytona/blob/main/hack/samples/index.json).
-
-# Sample <LANGUAGE/FRAMEWORK>
-
-Sample description
+This is an example Zig project used in Daytona.
 
 ---
 
@@ -16,19 +10,29 @@ Sample description
 
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
-   ```bash  
-   daytona create <SAMPLE_REPO_URL> 
-   ```  
+```bash  
+daytona create https://github.com/daytonaio/sample-zig
+```  
+3. **Initialize the Application**:  
+```bash  
+zig init
+```
+4. **Build and run**
+```bash
+# Run all tests
+zig build test --summary all
 
-... MORE STEPS IF NEEDED ...
+# Run the application
+zig build run --summary all
 
-4. **Start the Application**:  
-   ```bash  
-   command to start the app
-   ```  
+# Build the library
+zig build --summary all
+```
 
 ---
 
 ## ✨ Features  
 
-List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+standardized development environment with devcontainers
+
+console application
